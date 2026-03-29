@@ -1,8 +1,8 @@
 #LISTS
-l1 = [10, 20, 30, 40];
-max_val= l1[0];
+l1 = [1, 2, 3, 4, 5, 6, 7];
+count = 0
 for num in l1:
-    if max_val< num:
-        max_val=num;
+    if num%2==0:
+        count=count+1
+print("Total Even Numbers are: " , count)
 
-print(max_val)
