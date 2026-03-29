@@ -1,7 +1,4 @@
 #LISTS
-a = []
-b = [1, 2, 3, 4, 5]
-c = [1, "AJ", 3.14, True]
-print(a);
-print(b);
-print(c);
+l1 = [10, 20, 30, 40];
+for num in l1:
+    print(num);
