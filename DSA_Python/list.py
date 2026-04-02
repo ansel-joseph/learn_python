@@ -1,11 +1,14 @@
 #LISTS
-l1 = [3, 2, 3, 3, 3]
-target = 3
-a=0
-for i in l1:
-    if(target==i):
-        a=a+1
-print(a)
+l1 = [1,2,4,5,3]
+prev = l1[0]
+for num in l1:
+    if prev > num:
+        print("Array not Sorted")
+        break
+    prev = num
+else:
+    print("Array sorted")
+        
 
 
 
