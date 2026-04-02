@@ -1,9 +1,15 @@
 #LISTS
-l1 = [100, 2, 30, 40, 5]
-total = 0
+l1 = [3, 2, 3, 3, 3]
+target = 3
+a=0
 for i in l1:
-    total=total+i
-print(total)
+    if(target==i):
+        a=a+1
+print(a)
+
+
+
+
 
          
      
