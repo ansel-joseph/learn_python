@@ -1,8 +1,11 @@
 #LISTS
-l1 = [10, 20, 30, 40, 50]
-l2=[]
+l1 = [100, 2, 30, 40, 5]
+first = l1[0]
+for i in l1:    
+    if first>i:
+        first=i
+print(first)
 
-for i in range(len(l1)-1, -1, -1):
-    l2.append(l1[i])
+         
+     
 
-print(l2)
